@@ -70,7 +70,7 @@
 		3F71969126DE9D87008662E4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../Order.swift; sourceTree = "<group>"; };
 		3F71969426DE9DBC008662E4 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../menu.json; sourceTree = "<group>"; };
 		3F71969726DE9F35008662E4 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../Menu.swift; sourceTree = "<group>"; };
-		3F71969A26DFF461008662E4 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemRow.swift; path = ../../ItemRow.swift; sourceTree = "<group>"; };
+		3F71969A26DFF461008662E4 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemRow.swift; path = ../ItemRow.swift; sourceTree = "<group>"; };
 		3F71969D26E143B5008662E4 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = SOURCE_ROOT; };
 		3F7196A026E7D85D008662E4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = SOURCE_ROOT; };
 		3F7196A326E7DAB6008662E4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = SOURCE_ROOT; };
