@@ -15,8 +15,6 @@
 		3F71967D26DE9C82008662E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71965226DE9C7B008662E4 /* ContentView.swift */; };
 		3F71967E26DE9C82008662E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F71965326DE9C82008662E4 /* Assets.xcassets */; };
 		3F71967F26DE9C82008662E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F71965326DE9C82008662E4 /* Assets.xcassets */; };
-		3F71968F26DE9D76008662E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71968E26DE9D76008662E4 /* Helper.swift */; };
-		3F71969026DE9D76008662E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71968E26DE9D76008662E4 /* Helper.swift */; };
 		3F71969226DE9D87008662E4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969126DE9D87008662E4 /* Order.swift */; };
 		3F71969326DE9D87008662E4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969126DE9D87008662E4 /* Order.swift */; };
 		3F71969526DE9DBC008662E4 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F71969426DE9DBC008662E4 /* menu.json */; };
@@ -33,6 +31,8 @@
 		3F7196A526E7DAB6008662E4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A326E7DAB6008662E4 /* MainView.swift */; };
 		3F7196A726E80CC7008662E4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A626E80CC6008662E4 /* CheckoutView.swift */; };
 		3F7196A826E80CC7008662E4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A626E80CC6008662E4 /* CheckoutView.swift */; };
+		3F7196AA26F141DD008662E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A926F141DC008662E4 /* Helper.swift */; };
+		3F7196AB26F141DD008662E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A926F141DC008662E4 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,15 +67,15 @@
 		3F71967326DE9C82008662E4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F71967726DE9C82008662E4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		3F71967926DE9C82008662E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F71968E26DE9D76008662E4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../../../Downloads/idine/Helper.swift; sourceTree = "<group>"; };
-		3F71969126DE9D87008662E4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
-		3F71969426DE9DBC008662E4 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
-		3F71969726DE9F35008662E4 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
+		3F71969126DE9D87008662E4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../Order.swift; sourceTree = "<group>"; };
+		3F71969426DE9DBC008662E4 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../menu.json; sourceTree = "<group>"; };
+		3F71969726DE9F35008662E4 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../Menu.swift; sourceTree = "<group>"; };
 		3F71969A26DFF461008662E4 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemRow.swift; path = ../../ItemRow.swift; sourceTree = "<group>"; };
 		3F71969D26E143B5008662E4 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = SOURCE_ROOT; };
 		3F7196A026E7D85D008662E4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = SOURCE_ROOT; };
 		3F7196A326E7DAB6008662E4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = SOURCE_ROOT; };
 		3F7196A626E80CC6008662E4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = SOURCE_ROOT; };
+		3F7196A926F141DC008662E4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 				3F7196A026E7D85D008662E4 /* OrderView.swift */,
 				3F7196A326E7DAB6008662E4 /* MainView.swift */,
 				3F71969A26DFF461008662E4 /* ItemRow.swift */,
-				3F71968E26DE9D76008662E4 /* Helper.swift */,
+				3F7196A926F141DC008662E4 /* Helper.swift */,
 				3F71969126DE9D87008662E4 /* Order.swift */,
 				3F71969726DE9F35008662E4 /* Menu.swift */,
 				3F71969426DE9DBC008662E4 /* menu.json */,
@@ -353,8 +353,8 @@
 				3F71967C26DE9C82008662E4 /* ContentView.swift in Sources */,
 				3F71967A26DE9C82008662E4 /* iDineApp.swift in Sources */,
 				3F71969B26DFF461008662E4 /* ItemRow.swift in Sources */,
+				3F7196AA26F141DD008662E4 /* Helper.swift in Sources */,
 				3F71969226DE9D87008662E4 /* Order.swift in Sources */,
-				3F71968F26DE9D76008662E4 /* Helper.swift in Sources */,
 				3F71969826DE9F35008662E4 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,8 +370,8 @@
 				3F71967D26DE9C82008662E4 /* ContentView.swift in Sources */,
 				3F71967B26DE9C82008662E4 /* iDineApp.swift in Sources */,
 				3F71969C26DFF461008662E4 /* ItemRow.swift in Sources */,
+				3F7196AB26F141DD008662E4 /* Helper.swift in Sources */,
 				3F71969326DE9D87008662E4 /* Order.swift in Sources */,
-				3F71969026DE9D76008662E4 /* Helper.swift in Sources */,
 				3F71969926DE9F35008662E4 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
