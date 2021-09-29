@@ -33,6 +33,30 @@
 		3F7196A826E80CC7008662E4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A626E80CC6008662E4 /* CheckoutView.swift */; };
 		3F7196AA26F141DD008662E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A926F141DC008662E4 /* Helper.swift */; };
 		3F7196AB26F141DD008662E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A926F141DC008662E4 /* Helper.swift */; };
+		3F7196C02704EF57008662E4 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969D26E143B5008662E4 /* ItemDetail.swift */; };
+		3F7196C12704EF5A008662E4 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969D26E143B5008662E4 /* ItemDetail.swift */; };
+		3F7196C22704EF73008662E4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A626E80CC6008662E4 /* CheckoutView.swift */; };
+		3F7196C32704EF74008662E4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A626E80CC6008662E4 /* CheckoutView.swift */; };
+		3F7196C42704EF79008662E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71965226DE9C7B008662E4 /* ContentView.swift */; };
+		3F7196C52704EF79008662E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71965226DE9C7B008662E4 /* ContentView.swift */; };
+		3F7196C62704EF7C008662E4 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71965126DE9C7B008662E4 /* iDineApp.swift */; };
+		3F7196C72704EF7D008662E4 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71965126DE9C7B008662E4 /* iDineApp.swift */; };
+		3F7196C82704EF81008662E4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A026E7D85D008662E4 /* OrderView.swift */; };
+		3F7196C92704EF82008662E4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A026E7D85D008662E4 /* OrderView.swift */; };
+		3F7196CA2704EF84008662E4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A326E7DAB6008662E4 /* MainView.swift */; };
+		3F7196CB2704EF84008662E4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A326E7DAB6008662E4 /* MainView.swift */; };
+		3F7196CC2704EF87008662E4 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969A26DFF461008662E4 /* ItemRow.swift */; };
+		3F7196CD2704EF87008662E4 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969A26DFF461008662E4 /* ItemRow.swift */; };
+		3F7196CE2704EF8A008662E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A926F141DC008662E4 /* Helper.swift */; };
+		3F7196CF2704EF8B008662E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7196A926F141DC008662E4 /* Helper.swift */; };
+		3F7196D02704EF8D008662E4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969126DE9D87008662E4 /* Order.swift */; };
+		3F7196D12704EF8E008662E4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969126DE9D87008662E4 /* Order.swift */; };
+		3F7196D22704EF90008662E4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969726DE9F35008662E4 /* Menu.swift */; };
+		3F7196D32704EF91008662E4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71969726DE9F35008662E4 /* Menu.swift */; };
+		3F7196D42704EF94008662E4 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F71969426DE9DBC008662E4 /* menu.json */; };
+		3F7196D52704EF94008662E4 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F71969426DE9DBC008662E4 /* menu.json */; };
+		3F7196D62704EFA7008662E4 /* Tests iOS.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 3F71966826DE9C82008662E4 /* Tests iOS.xctest */; };
+		3F7196D72704EFAA008662E4 /* Tests macOS.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 3F71967326DE9C82008662E4 /* Tests macOS.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -329,6 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7196D42704EF94008662E4 /* menu.json in Resources */,
+				3F7196D62704EFA7008662E4 /* Tests iOS.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +362,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7196D52704EF94008662E4 /* menu.json in Resources */,
+				3F7196D72704EFAA008662E4 /* Tests macOS.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +409,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F71966D26DE9C82008662E4 /* Tests_iOS.swift in Sources */,
+				3F7196CA2704EF84008662E4 /* MainView.swift in Sources */,
+				3F7196D02704EF8D008662E4 /* Order.swift in Sources */,
+				3F7196C02704EF57008662E4 /* ItemDetail.swift in Sources */,
+				3F7196C42704EF79008662E4 /* ContentView.swift in Sources */,
+				3F7196D22704EF90008662E4 /* Menu.swift in Sources */,
+				3F7196C82704EF81008662E4 /* OrderView.swift in Sources */,
+				3F7196CE2704EF8A008662E4 /* Helper.swift in Sources */,
+				3F7196C62704EF7C008662E4 /* iDineApp.swift in Sources */,
+				3F7196C22704EF73008662E4 /* CheckoutView.swift in Sources */,
+				3F7196CC2704EF87008662E4 /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +427,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F71967826DE9C82008662E4 /* Tests_macOS.swift in Sources */,
+				3F7196CB2704EF84008662E4 /* MainView.swift in Sources */,
+				3F7196D12704EF8E008662E4 /* Order.swift in Sources */,
+				3F7196C12704EF5A008662E4 /* ItemDetail.swift in Sources */,
+				3F7196C52704EF79008662E4 /* ContentView.swift in Sources */,
+				3F7196D32704EF91008662E4 /* Menu.swift in Sources */,
+				3F7196C92704EF82008662E4 /* OrderView.swift in Sources */,
+				3F7196CF2704EF8B008662E4 /* Helper.swift in Sources */,
+				3F7196C72704EF7D008662E4 /* iDineApp.swift in Sources */,
+				3F7196C32704EF74008662E4 /* CheckoutView.swift in Sources */,
+				3F7196CD2704EF87008662E4 /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

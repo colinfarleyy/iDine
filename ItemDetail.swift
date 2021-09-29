@@ -29,7 +29,9 @@ struct ItemDetail: View {
             Button("Order This") {
                 order.add(item: item)
             }
-            .font(.headline)
+            .padding()
+            .background(Color(red: 0, green: 1, blue: 0))
+            .clipShape(Capsule())
             Spacer()
         }
         .navigationTitle(item.name)
