@@ -42,7 +42,7 @@ struct ItemDetail: View {
         {
             Text("Favorite Item")
                 .padding()
-                .background(Color("lightYellow"))
+                .background(Color(.yellow))
                 .cornerRadius(100)
                 .clipShape(Capsule())
         }
