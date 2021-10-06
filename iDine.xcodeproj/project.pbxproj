@@ -57,6 +57,8 @@
 		3F7196D52704EF94008662E4 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F71969426DE9DBC008662E4 /* menu.json */; };
 		3F7196D62704EFA7008662E4 /* Tests iOS.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 3F71966826DE9C82008662E4 /* Tests iOS.xctest */; };
 		3F7196D72704EFAA008662E4 /* Tests macOS.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 3F71967326DE9C82008662E4 /* Tests macOS.xctest */; };
+		3F922387270CDB970009ED5C /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F922386270CDB970009ED5C /* Favorites.swift */; };
+		3F922389270DF4DA0009ED5C /* FavortitesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F922388270DF4D90009ED5C /* FavortitesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,8 @@
 		3F7196A326E7DAB6008662E4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = SOURCE_ROOT; };
 		3F7196A626E80CC6008662E4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = SOURCE_ROOT; };
 		3F7196A926F141DC008662E4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = SOURCE_ROOT; };
+		3F922386270CDB970009ED5C /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = SOURCE_ROOT; };
+		3F922388270DF4D90009ED5C /* FavortitesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavortitesView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 			children = (
 				3F71965126DE9C7B008662E4 /* iDineApp.swift */,
 				3F71965226DE9C7B008662E4 /* ContentView.swift */,
+				3F922388270DF4D90009ED5C /* FavortitesView.swift */,
 				3F71969D26E143B5008662E4 /* ItemDetail.swift */,
 				3F7196A626E80CC6008662E4 /* CheckoutView.swift */,
 				3F7196A026E7D85D008662E4 /* OrderView.swift */,
@@ -158,6 +163,7 @@
 				3F71969A26DFF461008662E4 /* ItemRow.swift */,
 				3F7196A926F141DC008662E4 /* Helper.swift */,
 				3F71969126DE9D87008662E4 /* Order.swift */,
+				3F922386270CDB970009ED5C /* Favorites.swift */,
 				3F71969726DE9F35008662E4 /* Menu.swift */,
 				3F71969426DE9DBC008662E4 /* menu.json */,
 				3F71965326DE9C82008662E4 /* Assets.xcassets */,
@@ -379,9 +385,11 @@
 				3F7196A726E80CC7008662E4 /* CheckoutView.swift in Sources */,
 				3F7196A126E7D85D008662E4 /* OrderView.swift in Sources */,
 				3F71967C26DE9C82008662E4 /* ContentView.swift in Sources */,
+				3F922387270CDB970009ED5C /* Favorites.swift in Sources */,
 				3F71967A26DE9C82008662E4 /* iDineApp.swift in Sources */,
 				3F71969B26DFF461008662E4 /* ItemRow.swift in Sources */,
 				3F7196AA26F141DD008662E4 /* Helper.swift in Sources */,
+				3F922389270DF4DA0009ED5C /* FavortitesView.swift in Sources */,
 				3F71969226DE9D87008662E4 /* Order.swift in Sources */,
 				3F71969826DE9F35008662E4 /* Menu.swift in Sources */,
 			);

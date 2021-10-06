@@ -9,7 +9,10 @@ import SwiftUI
 
 
 struct ItemDetail: View {
+    @EnvironmentObject var favorite: Favorites
     @EnvironmentObject var order : Order
+    @State private var showOrderToast = false
+    @State private var showFavoritesToast = false
     let item : MenuItem
     var body: some View {
         VStack {
@@ -32,7 +35,17 @@ struct ItemDetail: View {
             .padding()
             .background(Color(red: 0, green: 1, blue: 0))
             .clipShape(Capsule())
-            Spacer()
+        Button(action: {
+            favorite.add(item: item)
+            showFavoritesToast.toggle()
+        })
+        {
+            Text("Favorite Item")
+                .padding()
+                .background(Color("lightYellow"))
+                .cornerRadius(100)
+                .clipShape(Capsule())
+        }
         }
         .navigationTitle(item.name)
         .navigationBarTitleDisplayMode(.inline)
